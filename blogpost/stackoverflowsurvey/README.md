@@ -28,13 +28,11 @@ FINDINGS
 
 Result of our analysis for above business questions are:
 1.	Required skill for the potential job is the best parameter for job assessment
-<p align="center">
-  <img src="/images/assess_job" width="350" title="How to Assess Job">
-</p>
+![Alt text](/images/assess_job.png?raw=true "How to Assess Job")
 
 2.	Most popular Technologies are:
 <p align="center">
-  <img src="/images/most_pop_lang.png" width="350" title="Most Popular Language">
+  <img src="images/most_pop_lang.png" title="Most Popular Language">
 </p>
 
 Language: C and Java
