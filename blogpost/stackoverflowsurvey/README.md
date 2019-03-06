@@ -38,8 +38,11 @@ Result of our analysis for above business questions are:
 </p>
 
 Language: C and Java
+
 Database: MySQL and SQL Server
+
 Framework: Node.js and Angular
+
 
 3.	The best way to acquire these skills would be to take an online course e.g. a MOOC
 <p align="center">
@@ -47,6 +50,7 @@ Framework: Node.js and Angular
 </p>
 Full report for the project can be viewed at below link on medium:
 https://medium.com/@vsst2016/thinking-of-getting-into-tech-industry-a83ef7ad0939 
+
 
 LICENSING, AUTHORS AND ACKNOWLEDGEMENTS
 
