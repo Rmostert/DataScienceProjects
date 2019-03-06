@@ -34,7 +34,7 @@ Result of our analysis for above business questions are:
 
 2.	Most popular Technologies are:
 <p align="center">
-  <img src="/images/most_pop_lang" width="350" title="Most Popular Language">
+  <img src="/images/most_pop_lang.png" width="350" title="Most Popular Language">
 </p>
 
 Language: C and Java
