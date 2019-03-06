@@ -28,7 +28,9 @@ FINDINGS
 
 Result of our analysis for above business questions are:
 1.	Required skill for the potential job is the best parameter for job assessment
-![Alt text](/images/assess_job.png?raw=true "How to Assess Job")
+<p align="center">
+  <img src="images/assess_job.png" title="How to Assess a Job">
+</p>
 
 2.	Most popular Technologies are:
 <p align="center">
@@ -40,6 +42,9 @@ Database: MySQL and SQL Server
 Framework: Node.js and Angular
 
 3.	The best way to acquire these skills would be to take an online course e.g. a MOOC
+<p align="center">
+  <img src="images/edu_methods.png" title="Education Methods">
+</p>
 Full report for the project can be viewed at below link on medium:
 https://medium.com/@vsst2016/thinking-of-getting-into-tech-industry-a83ef7ad0939 
 
