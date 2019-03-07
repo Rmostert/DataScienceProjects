@@ -24,11 +24,11 @@ This project includes a web app where an emergency worker can input a new messag
   <img src="images/intro.png" width="350" title="Project Home Page">
 </p>
 <p align="center">
-  <img src="images/dist_msg_cat.png" width="350" title="">
+  <img src="images/dist_msg_cat.png" width="650" title="">
 </p>
 <p align="center">
-  <img src="images/top10_msg.png" width="350" title="">
+  <img src="images/top10_msg.png" width="650" title="">
 </p>
 <p align="center">
-  <img src="images/classify.png" width="350" alt="Classification Results Page">
+  <img src="images/classify.png" width="650" alt="Classification Results Page">
 </p>
