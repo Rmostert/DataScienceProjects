@@ -16,10 +16,21 @@ from sqlalchemy import create_engine
 app = Flask(__name__)
 
 def tokenize(text):
+    """
+    This function case normalizes, tokenizes and lemmatizes a text
+    
+    INPUT
+    text - string that needs processing
+    OUTPUT
+    clean_tokens - list of cleaned tokens
+    """
+    # create word_tokenizer object
     tokens = word_tokenize(text)
+    # create lemmatizer object
     lemmatizer = WordNetLemmatizer()
 
     clean_tokens = []
+    # loop through tokens
     for tok in tokens:
         clean_tok = lemmatizer.lemmatize(tok).lower().strip()
         clean_tokens.append(clean_tok)
@@ -51,13 +62,16 @@ def index():
     
     # extract data needed for visuals
     # TODO: Below is an example - modify to extract data for your own visuals
+    # Message count by genre
     genre_counts = df.groupby('genre').count()['message']
     genre_names = list(genre_counts.index)
     
+    # Message count by categories
     cat_counts = df[df.columns[4:]].sum().sort_values()
     cat_counts.sort_values()
     cat_names = list(cat_counts.index)
     
+    # Top 10 message categories
     num_vars = df.select_dtypes(include=['int']).columns.drop('id')
     perc_msg_counts = df[num_vars].mean().sort_values(ascending=False).head(10)
     perc_msg_names = list(perc_msg_counts.index)
