@@ -85,6 +85,7 @@ def unique_vals(df,col):
 
 def total_count(df, col1, col2, look_for):
     """
+    This Function calculates the total count of individual items in a dataframe column
     INPUT:
     df - the pandas dataframe you want to search
     col1 - the column name you want to look through
@@ -111,6 +112,7 @@ def total_count(df, col1, col2, look_for):
 
 def clean_and_plot(df,col,possible_vals,title='Method of Educating Suggested',plot=True):
     """
+    This Functions cleans and plots bar chart of individual values from the provided column
     INPUT 
         df - a dataframe holding the required column
         col - string - the column name which needs to be cleaned
@@ -137,6 +139,7 @@ def clean_and_plot(df,col,possible_vals,title='Method of Educating Suggested',pl
 
 def piechart(df,col):
     """
+    This function displays a piechart of the given dataframe column
     INPUT 
         df - a dataframe holding the required column for piechart
         col - string - the column name which needs to a piechart
