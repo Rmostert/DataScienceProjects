@@ -6,10 +6,10 @@ This is a text classification project for real messages that were sent during di
 
 This project includes a web app where an emergency worker can input a new message and get classification results in several categories.
 
-ETL Pipeline:
+#### ETL Pipeline:
 for etl pipeline we have script process.py. This scripts first merges messages and categories datasets, then splits the values in categories column into separate category columns. It renames all the 36 category columns and converts their values to binary. Then drops categories column, removes duplicates and saves the clean dataset into a sqlite database.
 
-ML Pipeline:
+#### ML Pipeline:
 This is written in classifier.py file. It initially reads data from sqlite database, does text processing and builds a machine learning pipeline. Fits the pipeline on train set and tests on test dataset. Then improves the model, test and exports as pickle file
 
 ### Instructions:
@@ -27,7 +27,7 @@ This is written in classifier.py file. It initially reads data from sqlite datab
 3. Go to http://0.0.0.0:3001/
 
 <p align="center">
-  <img src="images/intro.png" width="650" title="Project Home Page">
+  <img src="images/intro.png" width="650" title="">
 </p>
 <p align="center">
   <img src="images/dist_msg_cat.png" width="650" title="">
@@ -36,5 +36,5 @@ This is written in classifier.py file. It initially reads data from sqlite datab
   <img src="images/top10_msg.png" width="650" title="">
 </p>
 <p align="center">
-  <img src="images/classify.png" width="650" alt="Classification Results Page">
+  <img src="images/classify.png" width="650" title="">
 </p>
