@@ -21,7 +21,7 @@ This project includes a web app where an emergency worker can input a new messag
 3. Go to http://0.0.0.0:3001/
 
 <p align="center">
-  <img src="images/intro.png" width="350" title="Project Home Page">
+  <img src="images/intro.png" width="650" title="Project Home Page">
 </p>
 <p align="center">
   <img src="images/dist_msg_cat.png" width="650" title="">
