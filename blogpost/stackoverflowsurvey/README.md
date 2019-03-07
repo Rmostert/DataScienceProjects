@@ -32,24 +32,11 @@ Result of our analysis for above business questions are:
   <img src="images/assess_job.png" title="How to Assess a Job">
 </p>
 
-2.	Most popular Technologies are:
-<p align="center">
-  <img src="images/most_pop_lang.png" title="Most Popular Language">
-</p>
 
-Language: C and Java
-
-Database: MySQL and SQL Server
-
-Framework: Node.js and Angular
-
-
-3.	The best way to acquire these skills would be to take an online course e.g. a MOOC
-<p align="center">
-  <img src="images/edu_methods.png" title="Education Methods">
-</p>
 Full report for the project can be viewed at below link on medium:
-https://medium.com/@vsst2016/thinking-of-getting-into-tech-industry-a83ef7ad0939 
+
+https://medium.com/@vsst2016/thinking-of-getting-into-tech-industry-a83ef7ad0939
+
 
 
 LICENSING, AUTHORS AND ACKNOWLEDGEMENTS
